@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_course_course_contents",
+  "info": {
+    "displayName": "course_content",
+    "icon": "desktop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "course_video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "prerequisite": {
+      "type": "text"
+    },
+    "what_course_content": {
+      "type": "text"
+    },
+    "length": {
+      "type": "integer"
+    }
+  }
+}
